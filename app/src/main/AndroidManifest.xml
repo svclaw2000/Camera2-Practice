@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Camera2Practice">
         <activity
+            android:name=".Camera2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraXActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
